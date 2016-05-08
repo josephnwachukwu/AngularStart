@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate-style-guide",
+  "version": "1.0.0",
+  "description": "this is a boilerplate style guide that you can use to rapidly start your development. ",
+  "main": "index.html",
+  "scripts": {
+    "test": "serve"
+  },
+  "author": "Joseph Nwachukwu",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.0.3",
+    "less": "^2.6.1",
+    "livereload": "^0.4.1",
+    "node-watch": "^0.3.5",
+    "open": "0.0.5",
+    "path": "^0.12.7"
+  }
+}

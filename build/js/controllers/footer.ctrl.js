@@ -1,0 +1,3 @@
+angular.controller(['footer', function(){
+	
+}]);
