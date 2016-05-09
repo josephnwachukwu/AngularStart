@@ -35,6 +35,7 @@ No grunt or gulp all building and testing is done with node. Much cleaner. Nothi
 * [path](https://www.npmjs.com/package/path)
 * [jshint](https://www.npmjs.com/package/jshint)
 * [uglify](https://www.npmjs.com/package/uglify-js)
+* [livereload](https://www.npmjs.com/package/livereload)
 
 
 
