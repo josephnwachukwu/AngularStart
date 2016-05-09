@@ -20,6 +20,21 @@ This boilerplate was created to expedite making websites.
 
 Start Devleoping from boilerplate or drop your template and styles into the build. 
 
+##The Package
+###CSS
+#### [Less](lesscss.org) and [Bem methodology](https://bem.info) are used for the css. 
+
+### Node Modules
+No grunt or gulp all building and testing is done with node. Much cleaner. Nothing too complicated. 
+
+* concat
+* glob
+* less
+* watch
+* open
+* path
+
+
 
 ## A little about the code
 
@@ -169,6 +184,4 @@ angular.module('boilerplate', [])
 ```
 
 
-## License
 
-A short snippet describing the license (MIT, Apache, etc.)
