@@ -9,7 +9,9 @@
   "author": "Joseph Nwachukwu",
   "license": "ISC",
   "devDependencies": {
+    "fs-extra": "^0.30.0",
     "glob": "^7.0.3",
+    "glob-all": "^3.0.3",
     "jshint": "^2.9.2",
     "less": "^2.6.1",
     "livereload": "^0.4.1",
