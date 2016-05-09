@@ -27,12 +27,14 @@ Start Devleoping from boilerplate or drop your template and styles into the buil
 ### Node Modules
 No grunt or gulp all building and testing is done with node. Much cleaner. Nothing too complicated. 
 
-* concat
-* glob
-* less
-* watch
-* open
-* path
+* [concat](https://www.npmjs.com/package/concat)
+* [glob](https://github.com/isaacs/node-glob)
+* [less](https://www.npmjs.com/package/less)
+* [watch](https://www.npmjs.com/package/watch)
+* [open](https://www.npmjs.com/package/open)
+* [path](https://www.npmjs.com/package/path)
+* [jshint](https://www.npmjs.com/package/jshint)
+* [uglify](https://www.npmjs.com/package/uglify-js)
 
 
 
