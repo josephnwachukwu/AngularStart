@@ -6,7 +6,7 @@
 // 'boilerplate.controllers' is found in controllers.js
 // 'boilerplate.services' is found in services.js
 // 'boilerplate.directives' is found in directives.js
-angular.module('boilerplate', ['boilerplate.controllers', 'boilerplate.services', 'boilerplate.directives'])
+angular.module('boilerplate', [ 'ui.router', 'boilerplate.controllers', 'boilerplate.services', 'boilerplate.directives'])
 
 
 .run(function(){
@@ -16,23 +16,25 @@ angular.module('boilerplate', ['boilerplate.controllers', 'boilerplate.services'
 .config(function($stateProvider, $urlRouterProvider){
 	//
 	// For any unmatched url, redirect to /state1
-	$urlRouterProvider.otherwise("/state1");
+	$urlRouterProvider.otherwise("/");
 	//
 	// Now set up the states
 	$stateProvider
 	.state('home', {
-		url: "/home",
-		templateUrl: "partials/home.html"
-	})
-	.state('state2', {
-		url: "/state2",
-		templateUrl: "partials/state2.html"
-	})
-	.state('state2.list', {
-		url: "/list",
-			templateUrl: "partials/state2.list.html",
-			controller: function($scope) {
-			$scope.things = ["A", "Set", "Of", "Things"];
-		}
-	});
+        url: "/home",
+        views: {
+            'header': {
+                templateUrl: 'views/header.html',
+                controller: 'headerCtrl'
+            },
+            'main': {
+                template: '<div ui-view></div>',
+                controller: 'homeCtrl'
+            },
+            'footer': {
+                templateUrl: 'views/footer.html',
+                controller: 'footerCtrl'
+            }
+        }
+    });
 });

@@ -6,7 +6,7 @@
 	<!-- Meta Tags and Open Graph -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 	<!-- The app's css -->
 	<link rel="stylesheet" media="all" type="text/css" href="css/build.css" />
@@ -21,24 +21,12 @@
     <script src="js/services.js"></script>
 	<script src="js/directives.js"></script>
 
+
 </head>
 <body  data-ng-app="boilerplate">
-	<header></header>
-	<div class="container">
-		<div>
-		</div>
-		<div class="row">
-			<div class="__column __column--12x">
-				<h1>Style Guide</h1>
-				<h2>Grid</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="__column __column--3x">
-				<span>Hello</span>
-			</div>
-		</div>
+	<header ui-view="header"></header>
+	<div class="container" ui-view="main">
 	</div>
-	<footer></footer>
+	<footer ui-view="footer"></footer>
 </body>
 </html>
