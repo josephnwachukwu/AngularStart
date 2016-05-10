@@ -57,26 +57,20 @@ The Index.html holds the necessary scripts as well as the open graph and meta ta
 <html lang="en">
 <head>
 	<title>Angular JS Boilerplate</title>
-
 	<!-- Meta Tags and Open Graph -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
 	<!-- The app's css -->
 	<link rel="stylesheet" media="all" type="text/css" href="css/build.css" />
-
 	<!-- Angular & Libraries -->
 	<script src="js/lib/angular.min.js"></script>
 	<script src="js/lib/angular-ui-router.js"></script>
-
 	<!-- The app's js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/services.js"></script>
 	<script src="js/directives.js"></script>
-
-
 </head>
 <body  data-ng-app="boilerplate">
 	<header ui-view="header"></header>
