@@ -309,5 +309,16 @@ angular.module('boilerplate', [ 'ui.router', 'boilerplate.controllers', 'boilerp
 });
 ```
 
+### devBuild.js
 
+### productionBuild.js
+
+All scripts are minified and consolidated into one file. 
+
+* css files compliled into app.min.js
+* js files compiled into app.min.js
+* vendor js files compiled into vendor.min.js
+* templates copied to app folder
+
+## Folder Structure
 
