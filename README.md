@@ -13,7 +13,7 @@ Angular Boilerplate is a client site single page application template built usin
 This boilerplate was created to expedite making websites. 
 
 ## Install and Get started
-**(1)** Get UI-Router in one of the following ways:
+**(1)** Get The Boilerplate in one of the following ways:
 
 - clone & [build](CONTRIBUTING.md#developing) this repository
 - [download the release](http:/gensystemstech.com/angular-boilerplate.zip) (or [minified](http:/gensystemstech.com/angular-boilerplate.min.zip))
