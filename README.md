@@ -83,6 +83,19 @@ The Index.html holds the necessary scripts as well as the open graph and meta ta
 
 ### Server.js
 Server.js starts the server and launches the page in your default browser
+#### Server.js tasks
+
+* copy app.js to the debug folder
+* copy index.html to the debug folder
+* copy all the views to the debug folder
+* copy all imported js libraries to the debug folder
+* concatenate all the less into build.less and move it to the debug folder
+* process build.less to create build.css
+* concatenate all the controller module files and copy them to the debug folder
+* concatenate all the service module files and copy them to the debug folder
+* concatenate all the directive module files and copy them to the debug folder
+* start the http server at localhost:8000
+* begin watching less js amd html files for changes
 
 >
 ```javascript
