@@ -20,21 +20,25 @@ angular.module('boilerplate', [ 'ui.router', 'boilerplate.controllers', 'boilerp
 	//
 	// Now set up the states
 	$stateProvider
-	.state('home', {
-        url: "/home",
+	.state('base', {
+		abstract: true,
         views: {
             'header': {
                 templateUrl: 'views/header.html',
                 controller: 'headerCtrl'
             },
             'main': {
-                template: '<div ui-view></div>',
-                controller: 'homeCtrl'
+                template: '<div ui-view></div>'
             },
             'footer': {
                 templateUrl: 'views/footer.html',
                 controller: 'footerCtrl'
             }
         }
-    });
+    })
+	.state('base.home', {
+		url:"/home",
+		templateUrl: 'views/home.html',
+		controller: 'homeCtrl'
+	});
 });
