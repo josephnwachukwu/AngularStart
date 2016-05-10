@@ -26,8 +26,9 @@ Start Devleoping from boilerplate or drop your template and styles into the buil
 ###CSS
 #### [Less](lesscss.org) and [Bem methodology](https://bem.info) are used for the css. 
 
+####No grunt or gulp all building and testing is done with node. Much cleaner. Nothing too complicated. 
+
 ### Node Modules
-No grunt or gulp all building and testing is done with node. Much cleaner. Nothing too complicated. 
 
 * [concat](https://www.npmjs.com/package/concat)
 * [glob](https://github.com/isaacs/node-glob)
@@ -41,7 +42,10 @@ No grunt or gulp all building and testing is done with node. Much cleaner. Nothi
 * [glob-all](https://www.npmjs.com/package/glob-all)
 * [fs-extra](https://www.npmjs.com/package/fs-extra)
 
-
+### Other Libraries
+* [Modernizr](https://modernizr.com/)
+* [UI-Router](https://github.com/angular-ui/ui-router)
+* [jQuery](https://jquery.com/)
 
 ## A little about the code
 
