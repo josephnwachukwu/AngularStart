@@ -50,7 +50,12 @@ Start Devleoping from boilerplate or drop your template and styles into the buil
 ## A little about the code
 
 ### Index.html
-The Index.html holds the necessary scripts as well as the open graph and meta tags and the basic structure of the app.
+The Index.html holds the necessary scripts and basic structure of the app.
+
+* Meta Tags and open graph tags
+* js and css declarations
+* angular app initialization
+
 >
 ```html
 <!DOCTYPE html>
