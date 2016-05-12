@@ -310,8 +310,10 @@ angular.module('boilerplate', [ 'ui.router', 'boilerplate.controllers', 'boilerp
 ```
 
 ### devBuild.js
+the dev build is similiar to the server.js script except it does not start a server
 
 ### productionBuild.js
+the Production build scrip os similar to the devbuild script except it minifies everything and concatenates into fewer files. 
 
 All scripts are minified and consolidated into one file. 
 
