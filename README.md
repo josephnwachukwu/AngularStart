@@ -41,6 +41,7 @@ Start Devleoping from boilerplate or drop your template and styles into the buil
 * [livereload](https://www.npmjs.com/package/livereload)
 * [glob-all](https://www.npmjs.com/package/glob-all)
 * [fs-extra](https://www.npmjs.com/package/fs-extra)
+* [http](https://nodejs.org/api/http.html#http_http)
 
 ### Other Libraries
 * [Modernizr](https://modernizr.com/)
