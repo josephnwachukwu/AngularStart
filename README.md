@@ -22,11 +22,11 @@ This boilerplate was created to expedite making websites.
 
 Start Devleoping from boilerplate or drop your template and styles into the build. 
 
-##The Package
-###CSS
+## The Package
+### CSS
 #### [Less](lesscss.org) and [Bem methodology](https://bem.info) are used for the css. 
 
-####No grunt or gulp all building and testing is done with node. Much cleaner. Nothing too complicated. 
+#### No grunt or gulp all building and testing is done with node. Much cleaner. Nothing too complicated. 
 
 ### Node Modules
 
