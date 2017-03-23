@@ -1,6 +1,6 @@
 # Angular Boilerplate
 
-##A Boilerplate without all the BS
+## A Boilerplate without all the BS
 
 **Note: This is still a work in progress and its in the beginning stages. several things still have to be added such as modules for security, forms, cookies, music, images, and navigation. Jshint still has to be added to the build script and the build scripts have to be modified.**
 
